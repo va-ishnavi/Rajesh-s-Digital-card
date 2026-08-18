@@ -341,14 +341,36 @@
         /* =========================================
            MOBILE
         ========================================= */
+@media(max-width:500px) {
 
-        @media(max-width:500px) {
+    .card {
+        height: 650px;
+    }
 
-            .card {
-                height: 620px;
-            }
+    .card-front .p-8 {
+        padding: 24px;
+    }
 
-        }
+    .card-front .mt-20 {
+        margin-top: 65px;
+    }
+
+    .card-front .profile-ring {
+        width: 110px;
+        height: 110px;
+    }
+
+    .card-front h2 {
+        font-size: 30px;
+        margin-top: 12px;
+    }
+
+    .card-front #qrcode img {
+        width: 125px !important;
+        height: 125px !important;
+    }
+
+}
 
 
         @media(max-width:380px) {
@@ -1270,7 +1292,7 @@
             encodeURIComponent(
                 whatsappMessage
             );
-            
+
 
 
         /* =========================================
